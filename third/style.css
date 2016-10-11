@@ -1,0 +1,25 @@
+p {
+  font-family: "Times New Roman" Times;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  height: (100vh/7);
+  width: 100%;
+}
+
+#header {
+  background-color: #D8D8D8;
+}
+
+#box {
+  background-color: #4A90E2;
+  float: left;
+}

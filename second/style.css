@@ -1,0 +1,39 @@
+p {
+  color: #ffffff;
+  font-family: "Times New Roman" Times;
+  /*text-align: center;*/
+  font-size: 50px;
+  /*padding-top: 7vh;*/
+  margin: 0;
+}
+
+.column {
+  height: 100vh;
+  margin: auto;
+  float: left;
+  position: relative;
+  width: calc(100vw/3);
+}
+
+#one {
+  background-color: #4A90E2;
+}
+
+#two {
+  background-color: #50E3C2;
+}
+
+#three {
+  background-color: #B8E986;
+}
+
+#corner {
+  background-color: #D0021B;
+  height: 33vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
