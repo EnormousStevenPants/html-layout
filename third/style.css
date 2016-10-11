@@ -1,9 +1,15 @@
+body {
+  box-sizing: border-box;
+}
+
 p {
   font-family: "Times New Roman" Times;
   margin: 0;
+  padding: 100px;
 }
 
 main {
+  height: calc(100vh/3.5);
   width: 100%;
   display: flex;
   align-items: center;
@@ -11,7 +17,7 @@ main {
 }
 
 .bar {
-  height: (100vh/7);
+  height: calc(100vh/7);
   width: 100%;
 }
 
@@ -22,4 +28,23 @@ main {
 #box {
   background-color: #4A90E2;
   float: left;
+  height: 80px;
+  margin: 16px;
+  width: 80px;
+}
+
+#three {
+  background-color: #4A90E2;
+}
+
+#four {
+  background-color: #50E3C2;
+}
+
+#five {
+  background-color: #B8E986;
+}
+
+#six {
+  background-color: #F8E71C;
 }
